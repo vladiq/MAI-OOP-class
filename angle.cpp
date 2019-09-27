@@ -83,34 +83,14 @@ Angle Angle::Division(int number) const
 
 double Angle::Sin() const
 {
-	if ((deg == 0 || deg == 180) && min == 0) {
-		return 0;
-	}
-	double t = To_radian();
-	double sinx = t;
-
-	for (int i = 1; i < 10; ++i)
-	{
-		double mult = - To_radian() * To_radian() / ((2 * i + 1) * (2 * i));
-		t *= mult;
-		sinx += t;
-	}
-	return sinx;
+	double x = To_radian();
+	return sin(x);
 }
 
 double Angle::Cos() const
 {
-	if ((deg == 90 || deg == 270) && min == 0) {
-		return 0;
-	}
-	double mul = 1, div = 1,res = 0, x = To_radian();
-	for (int i = 1; i < 20; i += 2)
-	{
-		res += mul / div;
-		mul *= -x * x;
-		div *= i * (i + 1);
-	}
-	return res;
+	double x = To_radian();
+	return cos(x);
 }
 
 short Angle::Comparison(Angle &b) const
@@ -121,8 +101,8 @@ short Angle::Comparison(Angle &b) const
 	if (a_dec == b_dec) {
 		return 0;
 	} else if (a_dec > b_dec) {
-		return 1;
+		return -1;
 	} else {
-		return 2;
+		return 1;
 	}
 }

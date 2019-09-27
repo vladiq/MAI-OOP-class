@@ -29,7 +29,7 @@ int main(void)
 
 	if (a.Comparison(b) == 0) {
 		std::cout << "a == b" << std::endl;
-	} else if (a.Comparison(b) == 1) {
+	} else if (a.Comparison(b) == -1) {
 		std::cout << "a > b" << std::endl;
 	} else {
 		std::cout << "a < b" << std::endl;
