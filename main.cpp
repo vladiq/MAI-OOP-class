@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "angle.h"
+#include "angle.hpp"
 
 int main(void)
 {
