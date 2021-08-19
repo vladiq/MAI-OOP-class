@@ -1,2 +1,2 @@
 # Object-oriented programming class in MAI
-Variant 10
+Variant #10
