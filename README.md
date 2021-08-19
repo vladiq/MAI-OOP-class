@@ -5,7 +5,7 @@
 
 [Lab 2: Operator Overloading](https://github.com/vladiq/MAI-OOP-class/tree/master/lab_02)
 
-[Lab 3: Simple Classes](https://github.com/vladiq/MAI-OOP-class/tree/master/lab_03)
+[Lab 3: Inheritance and Polymorphism](https://github.com/vladiq/MAI-OOP-class/tree/master/lab_03)
 
 [Lab 4: Fundamentals of Metaprogramming](https://github.com/vladiq/MAI-OOP-class/tree/master/lab_04)
 
