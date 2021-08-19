@@ -1,4 +1,4 @@
-# Object-Oriented Programming Class in MAI
+# Object-Oriented Programming Class in MAI 
 
 [Lab 1: Simple Classes](https://github.com/vladiq/MAI-OOP-class/tree/master/lab_01)
 
