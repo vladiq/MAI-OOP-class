@@ -1,2 +1,2 @@
-# MAI-OOP-class
-var 10
+# Object-oriented programming class in MAI
+Variant 10
